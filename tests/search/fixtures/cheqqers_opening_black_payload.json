@@ -1,0 +1,293 @@
+{
+ "gameId": "local-test-game",
+ "roundId": "round-1",
+ "player": "black",
+ "currentTurn": "black",
+ "board": [
+  {
+   "piece": "black",
+   "crowned": false,
+   "probability": 1.0
+  },
+  {
+   "piece": "black",
+   "crowned": false,
+   "probability": 1.0
+  },
+  {
+   "piece": "black",
+   "crowned": false,
+   "probability": 1.0
+  },
+  {
+   "piece": "black",
+   "crowned": false,
+   "probability": 1.0
+  },
+  {
+   "piece": "black",
+   "crowned": false,
+   "probability": 1.0
+  },
+  {
+   "piece": "black",
+   "crowned": false,
+   "probability": 1.0
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": "white",
+   "crowned": false,
+   "probability": 1.0
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": "white",
+   "crowned": false,
+   "probability": 1.0
+  },
+  {
+   "piece": "white",
+   "crowned": false,
+   "probability": 1.0
+  },
+  {
+   "piece": "white",
+   "crowned": false,
+   "probability": 1.0
+  },
+  {
+   "piece": "white",
+   "crowned": false,
+   "probability": 1.0
+  },
+  {
+   "piece": "white",
+   "crowned": false,
+   "probability": 1.0
+  }
+ ],
+ "quantumStates": [
+  {
+   "type": "independent",
+   "squares": [
+    0
+   ],
+   "amplitudes": [
+    {
+     "state": "B",
+     "re": 1.0,
+     "im": 0.0
+    }
+   ]
+  },
+  {
+   "type": "independent",
+   "squares": [
+    1
+   ],
+   "amplitudes": [
+    {
+     "state": "B",
+     "re": 1.0,
+     "im": 0.0
+    }
+   ]
+  },
+  {
+   "type": "independent",
+   "squares": [
+    2
+   ],
+   "amplitudes": [
+    {
+     "state": "B",
+     "re": 1.0,
+     "im": 0.0
+    }
+   ]
+  },
+  {
+   "type": "independent",
+   "squares": [
+    3
+   ],
+   "amplitudes": [
+    {
+     "state": "B",
+     "re": 1.0,
+     "im": 0.0
+    }
+   ]
+  },
+  {
+   "type": "independent",
+   "squares": [
+    4
+   ],
+   "amplitudes": [
+    {
+     "state": "B",
+     "re": 1.0,
+     "im": 0.0
+    }
+   ]
+  },
+  {
+   "type": "independent",
+   "squares": [
+    5
+   ],
+   "amplitudes": [
+    {
+     "state": "B",
+     "re": 1.0,
+     "im": 0.0
+    }
+   ]
+  },
+  {
+   "type": "independent",
+   "squares": [
+    10
+   ],
+   "amplitudes": [
+    {
+     "state": "W",
+     "re": 1.0,
+     "im": 0.0
+    }
+   ]
+  },
+  {
+   "type": "independent",
+   "squares": [
+    13
+   ],
+   "amplitudes": [
+    {
+     "state": "W",
+     "re": 1.0,
+     "im": 0.0
+    }
+   ]
+  },
+  {
+   "type": "independent",
+   "squares": [
+    14
+   ],
+   "amplitudes": [
+    {
+     "state": "W",
+     "re": 1.0,
+     "im": 0.0
+    }
+   ]
+  },
+  {
+   "type": "independent",
+   "squares": [
+    15
+   ],
+   "amplitudes": [
+    {
+     "state": "W",
+     "re": 1.0,
+     "im": 0.0
+    }
+   ]
+  },
+  {
+   "type": "independent",
+   "squares": [
+    16
+   ],
+   "amplitudes": [
+    {
+     "state": "W",
+     "re": 1.0,
+     "im": 0.0
+    }
+   ]
+  },
+  {
+   "type": "independent",
+   "squares": [
+    17
+   ],
+   "amplitudes": [
+    {
+     "state": "W",
+     "re": 1.0,
+     "im": 0.0
+    }
+   ]
+  }
+ ],
+ "settings": {
+  "boardSize": 6,
+  "quantumness": 2,
+  "timeout": 3000
+ },
+ "legalMoves": [
+  [
+   3,
+   6
+  ],
+  [
+   4,
+   6
+  ],
+  [
+   4,
+   7
+  ],
+  [
+   5,
+   7
+  ],
+  [
+   5,
+   8
+  ],
+  [
+   4,
+   6,
+   7
+  ],
+  [
+   5,
+   7,
+   8
+  ]
+ ]
+}

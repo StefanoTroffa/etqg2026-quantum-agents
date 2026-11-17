@@ -1,0 +1,29 @@
+name: Quantum Games RL CI & Tournament Qualification
+
+on:
+  push:
+    branches: [ main, "feat/**" ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  parity-and-qualification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Set up Python 3.12
+        run: uv python install 3.12
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run 21 Official Engine Parity, Server Latency & vs-Random Qualification Tests
+        run: uv run pytest tests/compliance/test_official_engine_parity.py -v
+
+      - name: Run Leiden Evolutionary Population League Self-Test
+        run: uv run python src/arena/leiden_sparring_hub.py --self-test

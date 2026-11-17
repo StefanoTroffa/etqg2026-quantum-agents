@@ -1,0 +1,227 @@
+{
+ "gameId": "local-test-game",
+ "roundId": "round-1",
+ "player": "white",
+ "currentTurn": "white",
+ "board": [
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": "white",
+   "crowned": true,
+   "probability": 0.0009727626
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": "black",
+   "crowned": true,
+   "probability": 0.2490272357
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": "black",
+   "crowned": true,
+   "probability": 0.2499999983
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": "black",
+   "crowned": true,
+   "probability": 0.2490272357
+  },
+  {
+   "piece": "black",
+   "crowned": true,
+   "probability": 0.2490272357
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": "black",
+   "crowned": false,
+   "probability": 0.9970817055
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  },
+  {
+   "piece": null,
+   "crowned": false,
+   "probability": 0
+  }
+ ],
+ "quantumStates": [
+  {
+   "type": "entangled",
+   "squares": [
+    0,
+    10,
+    16,
+    12,
+    11,
+    14,
+    7,
+    9,
+    7,
+    11,
+    1,
+    5,
+    12
+   ],
+   "amplitudes": [
+    {
+     "state": "E\u2297E\u2297E\u2297E\u2297E\u2297B\u2297E\u2297E\u2297E\u2297E\u2297WQ\u2297E\u2297E",
+     "re": 0.031189142556059393,
+     "im": 0.0
+    },
+    {
+     "state": "E\u2297E\u2297E\u2297E\u2297E\u2297E\u2297BQ\u2297E\u2297E\u2297E\u2297E\u2297E\u2297E",
+     "re": 0.031189142556059393,
+     "im": 0.0
+    },
+    {
+     "state": "E\u2297E\u2297E\u2297E\u2297E\u2297B\u2297BQ\u2297E\u2297E\u2297E\u2297E\u2297E\u2297E",
+     "re": 0.49902628759600515,
+     "im": 0.0
+    },
+    {
+     "state": "E\u2297E\u2297E\u2297E\u2297BQ\u2297B\u2297E\u2297E\u2297E\u2297E\u2297E\u2297E\u2297E",
+     "re": 0.49902628759600515,
+     "im": 0.0
+    },
+    {
+     "state": "E\u2297E\u2297E\u2297E\u2297E\u2297B\u2297E\u2297E\u2297E\u2297E\u2297E\u2297BQ\u2297E",
+     "re": 0.49902628759600515,
+     "im": 0.0
+    },
+    {
+     "state": "E\u2297E\u2297E\u2297BQ\u2297E\u2297B\u2297E\u2297E\u2297E\u2297E\u2297E\u2297E\u2297E",
+     "re": 0.49902628759600515,
+     "im": 0.0
+    }
+   ]
+  }
+ ],
+ "settings": {
+  "boardSize": 6,
+  "quantumness": 2,
+  "timeout": 3000
+ },
+ "legalMoves": [
+  [
+   1,
+   4
+  ],
+  [
+   1,
+   6
+  ],
+  [
+   1,
+   9
+  ],
+  [
+   1,
+   5
+  ],
+  [
+   1,
+   8
+  ],
+  [
+   1,
+   4,
+   6
+  ],
+  [
+   1,
+   4,
+   9
+  ],
+  [
+   1,
+   4,
+   5
+  ],
+  [
+   1,
+   4,
+   8
+  ],
+  [
+   1,
+   6,
+   9
+  ],
+  [
+   1,
+   6,
+   5
+  ],
+  [
+   1,
+   6,
+   8
+  ],
+  [
+   1,
+   9,
+   5
+  ],
+  [
+   1,
+   9,
+   8
+  ],
+  [
+   1,
+   5,
+   8
+  ]
+ ]
+}

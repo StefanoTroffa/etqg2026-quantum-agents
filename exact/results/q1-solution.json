@@ -1,0 +1,134 @@
+[
+ {
+  "manual_measurement": true,
+  "value": "7/8",
+  "x_win_prob": "7/8",
+  "o_win_prob_when_o_maximises_it": "0",
+  "openings": [
+   {
+    "move": "split [0,4]",
+    "value": "7/8",
+    "x_win_prob": "7/8"
+   },
+   {
+    "move": "split [0,5]",
+    "value": "3/4",
+    "x_win_prob": "3/4"
+   },
+   {
+    "move": "split [0,8]",
+    "value": "3/4",
+    "x_win_prob": "3/4"
+   },
+   {
+    "move": "split [1,4]",
+    "value": "3/4",
+    "x_win_prob": "3/4"
+   },
+   {
+    "move": "split [1,3]",
+    "value": "5/8",
+    "x_win_prob": "3/4"
+   },
+   {
+    "move": "split [0,1]",
+    "value": "1/2",
+    "x_win_prob": "3/4"
+   },
+   {
+    "move": "split [0,2]",
+    "value": "1/2",
+    "x_win_prob": "3/4"
+   },
+   {
+    "move": "split [1,7]",
+    "value": "1/2",
+    "x_win_prob": "3/4"
+   },
+   {
+    "move": "X on 4",
+    "value": "1/4",
+    "x_win_prob": "1/2"
+   },
+   {
+    "move": "X on 0",
+    "value": "0",
+    "x_win_prob": "1/2"
+   },
+   {
+    "move": "X on 1",
+    "value": "0",
+    "x_win_prob": "1/4"
+   }
+  ],
+  "canonical_states": 128609,
+  "seconds": 93.9,
+  "split_0_4_x_win_prob": "7/8"
+ },
+ {
+  "manual_measurement": false,
+  "value": "1",
+  "x_win_prob": "1",
+  "o_win_prob_when_o_maximises_it": "0",
+  "openings": [
+   {
+    "move": "split [0,4]",
+    "value": "1",
+    "x_win_prob": "1"
+   },
+   {
+    "move": "split [0,2]",
+    "value": "7/8",
+    "x_win_prob": "7/8"
+   },
+   {
+    "move": "split [0,8]",
+    "value": "7/8",
+    "x_win_prob": "7/8"
+   },
+   {
+    "move": "split [0,5]",
+    "value": "3/4",
+    "x_win_prob": "3/4"
+   },
+   {
+    "move": "split [1,4]",
+    "value": "3/4",
+    "x_win_prob": "3/4"
+   },
+   {
+    "move": "split [0,1]",
+    "value": "5/8",
+    "x_win_prob": "3/4"
+   },
+   {
+    "move": "split [1,3]",
+    "value": "5/8",
+    "x_win_prob": "3/4"
+   },
+   {
+    "move": "split [1,7]",
+    "value": "1/2",
+    "x_win_prob": "3/4"
+   },
+   {
+    "move": "X on 4",
+    "value": "1/4",
+    "x_win_prob": "1/2"
+   },
+   {
+    "move": "X on 0",
+    "value": "0",
+    "x_win_prob": "1/2"
+   },
+   {
+    "move": "X on 1",
+    "value": "0",
+    "x_win_prob": "1/4"
+   }
+  ],
+  "canonical_states": 28308,
+  "seconds": 14.7,
+  "split_0_4_x_win_prob": "1"
+ }
+]

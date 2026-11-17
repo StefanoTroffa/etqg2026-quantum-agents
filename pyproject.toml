@@ -1,0 +1,39 @@
+[project]
+name = "quantum-games-rl-v2"
+version = "0.2.0"
+description = "Quantum Games RL & Search Engine (TiqTaqToe Q3 & Cheqqers 6x6 Q2) for ETQG / IEEE CoG 2027"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.7.0,<2.12",
+    "numpy>=1.26.0",
+    "scipy>=1.11.0",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.29.0",
+    "httpx>=0.27.0",
+    "requests>=2.31.0",
+    "pydantic>=2.7.0",
+    "pyyaml>=6.0.1",
+    "cirq-core>=1.3.0",
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+qg-server = "server:main"
+qg-sparring = "src.arena.leiden_sparring_hub:main"
+qg-bench-gpu = "benchmarks.benchmark_rtx5090:main"
+qg-exact-mdp = "src.training.exact_mdp_imitation:run_exact_mdp_imitation_experiment"
+
+[tool.pytest.ini_options]
+pythonpath = [".", "src"]
+testpaths = ["tests"]
+
+# PyTorch from the CUDA 12.8 index on Linux (track 33): the PyPI default (CUDA 13) does not start on a CUDA 12.x driver
+# ("driver too old") and the server would silently play FW; cu128 runs on 12.x drivers (tested on 12.5) and supports
+# the RTX 50xx (sm_120). Other platforms take PyPI's build.
+[tool.uv.sources]
+torch = { index = "pytorch-cu128", marker = "sys_platform == 'linux'" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

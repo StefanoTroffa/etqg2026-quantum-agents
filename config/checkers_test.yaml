@@ -1,0 +1,23 @@
+env:
+  name: "checkers"
+  mode: "interference"
+  size: 5
+  start_rows: 1
+
+model:
+  type: "mlp"
+  in_dim: 52
+  out_dim: 208
+  hidden_dims: [64, 64]
+
+training:
+  episodes: 2
+  batch_size: 2
+  gamma: 0.95
+  epsilon_start: 0.5
+  epsilon_end: 0.05
+  decay_rate: 0.005
+  optimizer: "adamw"
+  lr: 0.001
+  eval_every: 200
+  checkpoint_path: "results/checkers_test.pth"

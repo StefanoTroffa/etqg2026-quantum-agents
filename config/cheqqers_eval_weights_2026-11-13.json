@@ -1,0 +1,21 @@
+{
+  "men": 1.0,
+  "queens": 2.227617322126785,
+  "advance": 0.00811881180397136,
+  "advance_sq": 1.0477305127246614,
+  "back_rank": 0.5833701298996046,
+  "queen_main_diagonal": -0.43571216538519697,
+  "queen_near_diagonal": -0.41638242381805646,
+  "centre": 0.9496168431138384,
+  "superposition": 0.249965602891254,
+  "multi_jump": 0.07975647685569943,
+  "threat_mover": 0.8347313859229402,
+  "threat_waiter": 0.3290517189530503,
+  "tempo": -0.0012099176466642753,
+  "exposed_mover": -0.6423203549870193,
+  "exposed_waiter": -0.9401933515466545,
+  "superposition_when_few": 0.4956451298489273,
+  "material_share": 1.3897502732256841,
+  "scale": 25.0,
+  "logit_per_man": 0.5569469775287456
+}

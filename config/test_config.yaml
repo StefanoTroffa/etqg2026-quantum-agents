@@ -1,0 +1,21 @@
+env:
+  name: "tictactoe"
+  mode: "entanglement"
+  quantumness: 2
+
+model:
+  type: "mlp"
+  in_dim: 111
+  out_dim: 46
+  hidden_dims: [64, 64]
+
+training:
+  episodes: 2
+  batch_size: 2
+  gamma: 0.99
+  epsilon_start: 0.3
+  epsilon_end: 0.05
+  decay_rate: 0.003
+  optimizer: "adamw"
+  lr: 0.001
+  checkpoint_path: "results/test_pipeline_run.pth"

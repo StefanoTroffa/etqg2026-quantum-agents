@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.keys
+# results/data/: generated bulk, except the move tables the server plays from (w=*.pkl of Q1 and Q2, ~95 MB)
+results/data/*
+!results/data/q1-d0-m1/
+!results/data/q2-d0-m1/
+results/data/q*/reach.pkl
+results/data/q*/exploit-*
+docs/HANDOFF.md
+docs/superpowers/
+CLAUDE.md
+docs/exact-solution-math.md
+docs/cheqqers-feasibility.md

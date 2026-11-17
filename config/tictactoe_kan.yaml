@@ -1,0 +1,26 @@
+env:
+  name: "tictactoe"
+  mode: "entanglement"
+  quantumness: 2
+
+model:
+  type: "kan"
+  in_dim: 111
+  out_dim: 46
+  hidden_dims: [128, 128, 128]
+  num_centers: 8
+
+training:
+  episodes: 3000
+  batch_size: 32
+  gamma: 0.99
+  epsilon_start: 0.3
+  epsilon_end: 0.05
+  decay_rate: 0.003
+  optimizer: "adamw"
+  lr: 0.001
+  mcts_ratio: 0.5
+  rollouts: 8
+  eval_every: 500
+  train_with_mcts: true
+  checkpoint_path: "results/tictactoe_kan_entanglement.pth"
